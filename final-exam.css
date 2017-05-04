@@ -1,5 +1,9 @@
 
 
+body {
+  background-color: #461B7E;
+}
+
 .container {
   max-width: 700px;
   margin: 0 auto;
@@ -8,10 +12,10 @@
   overflow: auto; /*clear-fix hack*/
 }
 
-body {
-  background-color: #461B7E;
-}
 
+* {
+  box-sizing: border-box; /*box-sizing hack*/
+}
 
 @media(min-width: 500px) {
 .container {
@@ -25,17 +29,17 @@ body {
 .left-column {
   float: left;
   width: 66%;
-  padding-right: 20px;
-  padding: 10px;
+  overflow: auto; /*clear-fix hack*/
+  padding-top: 35px;
 }
 
 .right-column {
   float: right;
   width: 33%;
-  padding-left: 20px;
-  padding: 10px;
+  padding-top: 35px;
 
 }
+
 
 body {
   background-color: #461B7E;
@@ -43,3 +47,33 @@ body {
 
 
 } /*ends the media query*/
+
+a {
+  color: #461B7E;
+
+}
+
+h3 {
+  font-weight: normal;
+  padding-bottom: 2px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-style: italic;
+}
+
+h1, h2, h3 {
+  font-family: Georgia;
+}
+
+.source {
+  border-bottom: solid 5px #E8E8E8;
+  padding-bottom: 20px;
+}
+
+img {
+  max-width: 400px;
+  max-height: 300px;
+}
