@@ -31,13 +31,15 @@ body {
   width: 66%;
   overflow: auto; /*clear-fix hack*/
   padding-top: 35px;
+  padding-right: 20px;
+
 }
 
 .right-column {
   float: right;
   width: 33%;
   padding-top: 35px;
-
+  padding-left: 20px;
 }
 
 
@@ -76,4 +78,5 @@ h1, h2, h3 {
 img {
   max-width: 400px;
   max-height: 300px;
+  align-items: center;
 }
