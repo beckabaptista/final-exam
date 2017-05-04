@@ -1,0 +1,45 @@
+
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #fefee1;
+  padding: 30px;
+  overflow: auto; /*clear-fix hack*/
+}
+
+body {
+  background-color: #461B7E;
+}
+
+
+@media(min-width: 500px) {
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #fefee1;
+  padding: 30px;
+  overflow: auto; /*clear-fix hack*/
+}
+
+.left-column {
+  float: left;
+  width: 66%;
+  padding-right: 20px;
+  padding: 10px;
+}
+
+.right-column {
+  float: right;
+  width: 33%;
+  padding-left: 20px;
+  padding: 10px;
+
+}
+
+body {
+  background-color: #461B7E;
+}
+
+
+} /*ends the media query*/
